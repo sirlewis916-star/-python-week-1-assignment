@@ -1,0 +1,12 @@
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #Ask for inputs
+>>> price = float(input("Enter the price of an item: "))
+Enter the price of an item: 50
+>>> quantity = int(input("Enter the quantity you want: "))
+Enter the quantity you want: 3
+>>> #calculate total
+>>> total = price*quantity
+>>> #print friendly summary
+>>> print(f"{quantity} items at {price:.2f} each = {total:.2f}")
+3 items at 50.00 each = 150.00
